@@ -5,23 +5,24 @@
 
 ---
 
-### Project Status
+## Project Status
 🚧 **This project is in the early stages of development.** 🚧
 
 Key features are being added gradually. For updates on progress or to contribute, please refer to the issues section.
 
 ---
 
-### Tech Stack
+## Tech Stack
 List of tools used. More to follow as the project progresses.
 - **Vue 3**: Frontend framework
 - **TypeScript**: Strongly typed programming language builds on top of JavaScript
 - **PrimeVue**: UI Component library for Vue
 - **Tailwind CSS**: Utility-first CSS framework for building modern websites
+- **Pinia**: State management tool for Vue
 
 ---
 
-### Installation
+## Installation
 1. Clone the repository:
 ```bash
 git clone https://github.com/msllagas/notemate.git
@@ -40,7 +41,7 @@ Open your browser and go to http://localhost:5173 to see NoteMate in action.
 
 ---
 
-### Contribution Guidelines
+## Contribution Guidelines
 We welcome contributions to improve NoteMate! Please make sure your code adheres to the existing style. Here are some ways you can help:
 - Report bugs and suggest features by opening issues.
 - Review and comment on existing pull requests.
