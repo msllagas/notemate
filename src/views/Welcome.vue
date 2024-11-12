@@ -28,7 +28,7 @@
                         <Button
                             as="router-link"
                             label="Get Started"
-                            to="/" />
+                            :to="{ name: 'DashboardHome' }" />
                     </div>
                 </div>
             </div>
