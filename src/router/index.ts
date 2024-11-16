@@ -39,6 +39,11 @@ const routes: Array<RouteRecordRaw> = [
                 name: "DashboardUserProfile",
                 component: () => import("../views/dashboard/UserProfile.vue"),
             },
+            {
+                path: "/compose",
+                name: "DashboardCompose",
+                component: () => import("../views/dashboard/Compose.vue"),
+            },
         ],
     },
 ];
