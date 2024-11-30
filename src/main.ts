@@ -8,6 +8,8 @@ import Aura from "@primevue/themes/aura";
 import { createPinia } from "pinia";
 import router from "./router";
 import Tooltip from "primevue/tooltip";
+import { QuillEditor } from "@vueup/vue-quill";
+import "@vueup/vue-quill/dist/vue-quill.snow.css";
 
 const app = createApp(App);
 const pinia = createPinia();
@@ -44,5 +46,6 @@ app.use(PrimeVue, {
     },
 });
 app.directive("tooltip", Tooltip);
+app.component("QuillEditor", QuillEditor);
 
 app.mount("#app");
